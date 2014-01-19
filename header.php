@@ -1,3 +1,5 @@
+<?php if (!isset($_GET['pass']) || $_GET['pass'] != 'middlefarm') { die; } ?>
+
 <!doctype html>
 <html>
 <head>

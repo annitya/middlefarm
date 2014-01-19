@@ -4,12 +4,10 @@
     <div class="row">
         <?php
         $files = scandir('images/gallery');
-        $files = array_filter($files, function($file)
-        {
-            return $file != '.' && $file != '..';
-        });
 
-        foreach ($files as $file) { ?>
+        foreach ($files as $file) {
+            if ($file == '.' || $file == '..') { continue; } ?>
+
         <div class="col-xs-3">
             <a class="thumbnail">
                 <img src="images/gallery/<?php echo $file ?>" alt="125x125">
