@@ -9,9 +9,11 @@
     <!-- Optional theme -->
     <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap-theme.min.css">
     <!-- Latest compiled and minified JavaScript -->
+    <link rel="stylesheet" href="css/override.css">
 </head>
 <body>
-<a href="">
-    <img src="images/layout/header.jpg" alt="Epletre">
-</a>
-<?php include('menu.php'); ?>
+<div class="container">
+    <a href="">
+        <img src="images/layout/header.jpg" alt="Epletre">
+    </a>
+    <?php include('menu.php'); ?>

@@ -1,0 +1,46 @@
+.nav {
+    margin-top: -41px;
+}
+
+.nav li.active a {
+    color: grey;
+}
+
+.nav li.current a{
+    font-weight: bolder;
+    font-style: italic;
+    color: black;
+}
+
+.jumbotron {
+    padding: 15px;
+    width: 900px;
+}
+
+.col-lg-6 {
+    float: left;
+    width: 50%;
+}
+
+div.well {
+    width: 900px;
+}
+
+div.well.footer {
+    margin-bottom: 0;
+}
+
+div.container {
+    width: 900px;
+    max-height: 600px;
+    padding: 0;
+}
+
+div.row {
+    width: 900px;
+}
+
+#footer {
+    left: inherit;
+    right: inherit;
+}

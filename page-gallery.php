@@ -1,6 +1,6 @@
 <?php include('header.php') ?>
 
-<div class="container">
+<div class="well gallery">
     <div class="row">
         <?php
         $files = scandir('images/gallery');
@@ -17,9 +17,10 @@
         </div>
         <?php } ?>
     </div>
-
-    <div class="modal fade" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-        <div class="modal-body"></div>
-    </div>
 </div>
+
+<div class="modal fade" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-body"></div>
+</div>
+
 <?php include('footer.php') ?>
