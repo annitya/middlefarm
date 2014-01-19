@@ -56,3 +56,12 @@ h4 {
 body {
     padding-bottom: 145px;
 }
+
+div.well dt {
+    padding-top: 10px;
+    width: 385px;
+}
+
+div.well dd {
+    padding-top: 10px;
+}

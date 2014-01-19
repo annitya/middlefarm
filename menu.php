@@ -2,7 +2,8 @@
 
 $menuList = array(
     'index.php' => 'Hjem',
-    'about.php' => 'Om gården',
+    'page-about.php' => 'Om gården',
+    'page-demography.php' => 'Demografi',
     'page-gallery.php' => 'Bilder'
 )
 
