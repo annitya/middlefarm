@@ -15,7 +15,7 @@
 </head>
 <body>
 <div class="container">
-    <a href="">
+    <a href="index.php?pass=middlefarm">
         <img src="images/layout/header.jpg" alt="Epletre">
     </a>
     <?php include('menu.php'); ?>
