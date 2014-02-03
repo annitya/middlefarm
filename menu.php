@@ -2,10 +2,11 @@
 
 $menuList = array(
     'index.php' => 'Hjem',
-    'page-about.php' => 'Om gården',
+    'page-astrid-lindgren.php' => 'Astrid Lindgrens Värld',
     'page-demography.php' => 'Demografi',
-    'page-gallery.php' => 'Bilder'
-)
+    'page-gallery.php' => 'Bilder',
+    'page-about.php' => 'Om gården'
+);
 
 ?>
 
